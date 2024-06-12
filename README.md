@@ -21,16 +21,15 @@ In dieser Dokumentation werden die Grundlagen der Thread-Programmierung in C# be
 Im Thread-Programming wird das Programm in mehrere unabhängige Ausführungseinheiten, sogenannte Threads, unterteilt. Diese Threads können gleichzeitig (parallel) ausgeführt werden, was die Leistung und Effizienz des Programms verbessern kann. Jeder Thread läuft in einem gemeinsamen Speicherbereich des Prozesses, was einen schnellen Datenaustausch ermöglicht.
 
 ### Vorteile
-- **Parallelität:** Mehrere Aufgaben können gleichzeitig ausgeführt werden, wodurch die Gesamtverarbeitungszeit reduziert wird.
-- **Reaktionsfähigkeit:** Anwendungen können schneller auf Benutzeraktionen reagieren, da langwierige Aufgaben im Hintergrund ausgeführt werden.
-- **Ressourcenteilung:** Threads innerhalb desselben Prozesses teilen sich Ressourcen wie Speicher, was den Datenaustausch vereinfacht.
+- **Parallelität:** 
+- **Reaktionsfähigkeit:** 
+- **Ressourcenteilung:** 
 
 ### Herausforderungen
-- **Synchronisation:** Da Threads gemeinsamen Speicher verwenden, müssen Zugriffe synchronisiert werden, um Konsistenz zu gewährleisten.
-- **Race Conditions:** Probleme, die auftreten, wenn mehrere Threads gleichzeitig auf gemeinsame Daten zugreifen und die Endergebnisse von der Ausführungsreihenfolge abhängen.
-- **Deadlocks:** Situationen, in denen zwei oder mehr Threads aufeinander warten und dadurch blockiert sind, was zu einem Stillstand führt.
+- **Synchronisation:** 
+- **Race Conditions:** 
+- **Deadlocks:** 
 
-Heute werden wir die Grundlagen der Thread-Programmierung in C# behandeln. Wir zeigen, wie man Threads erstellt, startet und stoppt, wie man ihnen Parameter übergibt und wie man ihren Status überprüft. Abschließend sehen wir uns ein kleines Demo-Programm an, das all diese Konzepte in die Praxis umsetzt.
 
 
 
